@@ -1,0 +1,131 @@
+
+.heroContainer {
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+  }
+  
+  .heroWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 951px;
+    width: 100%;
+  }
+  
+  .heroBackground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.581), rgba(0, 0, 0, 0)), 
+    url('background.png');
+    background-size: cover;
+  }
+  
+  .contentWrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 256px 80px;
+  }
+  
+  .contentBox {
+    border-radius: 21px;
+    display: flex;
+    margin-bottom: -49px;
+    width: 610px;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .textContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+  }
+  
+  .description {
+    color: #f79f1a;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 37px;
+  }
+  
+  .highlightedText {
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .accentText {
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(247,159,26,1);
+  }
+  .accentText:hover{
+    font-style: normal;
+  }
+  
+  .exploreButton {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: rgba(247, 159, 26, 1);
+    margin-top: 61px;
+    width: 249px;
+    max-width: 100%;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    padding: 30px 40px;
+    cursor: pointer;
+  }
+  .exploreButton:hover{
+    box-shadow: 2px 2px black;
+    transform: scale(1.02);
+  }
+  
+  @media (max-width: 991px) {
+    .heroWrapper {
+      max-width: 100%;
+    }
+    
+    .contentWrapper {
+      max-width: 100%;
+      padding: 100px 20px;
+    }
+    
+    .contentBox {
+      margin-bottom: 10px;
+    }
+    
+    .title {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 55px;
+    }
+    
+    .description {
+      max-width: 100%;
+    }
+    
+    .exploreButton {
+      margin-top: 40px;
+      padding: 30px 20px;
+    }
+  }
