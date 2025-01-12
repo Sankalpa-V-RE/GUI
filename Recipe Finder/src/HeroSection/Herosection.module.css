@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     font-family: Inter, sans-serif;
+    padding-bottom: 50px;
   }
   
   .heroWrapper {
@@ -15,15 +16,15 @@
   }
   
   .heroBackground {
+    
     position: absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
-    background-image: 
-    linear-gradient(to right, rgba(0, 0, 0, 0.581), rgba(0, 0, 0, 0)), 
-    url('background.png');
+
     background-size: cover;
+    
   }
   
   .contentWrapper {
@@ -33,7 +34,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    padding: 256px 80px;
+    padding: 200px 80px;
   }
   
   .contentBox {
@@ -77,6 +78,7 @@
     font-weight: 600;
     font-style: italic;
     color: rgba(247,159,26,1);
+    
   }
   .accentText:hover{
     font-style: normal;

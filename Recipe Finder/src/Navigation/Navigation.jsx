@@ -15,7 +15,7 @@ function NavigationBar() {
         <div className={styles.socialLinksWrapper}>
           <img
             loading="lazy"
-            src="search.svg"
+            src="image.png"
             alt="Social media icon 1"
             className={styles.socialIcon}
           />

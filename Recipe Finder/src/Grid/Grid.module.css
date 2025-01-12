@@ -1,0 +1,6 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap; /* Ensures cards wrap to the next row if they don't fit */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center cards horizontally */
+}

@@ -1,18 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Leckerli+One&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
 
 .navigationContainer {
 
   background-color: rgba(33, 34, 35, 1);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   padding: 23px 70px;
   
@@ -26,10 +18,7 @@
 
 .navigationWrapper {
   display: flex;
-  align-items: center;
   gap: 40px 315px;
-  justify-content: start;
-  flex-wrap: wrap;
 }
 
 @media (max-width: 991px) {
@@ -39,13 +28,9 @@
 }
 
 .brandNavWrapper {
-  align-self: stretch;
   display: flex;
   min-width: 240px;
-  align-items: center;
   gap: 40px 244px;
-  flex-wrap: wrap;
-  margin: auto 0;
 }
 
 @media (max-width: 991px) {
@@ -55,33 +40,32 @@
 }
 
 .brandName {
-  align-self: stretch;
   width: 146px;
   gap: 4px;
-  color: rgba(255, 255, 255, 1);
-  margin: auto 0;
-  font: 400 24px "Leckerli One", serif;
+  color: #ffffff;
+  font: 400 26px "Leckerli One", serif;
+  transition: transform 1s ease;
+}
+.brandName:hover {
+  transform: scale(1.5);
 }
 
 .navLinksContainer {
-  align-self: stretch;
   display: flex;
   min-width: 240px;
   align-items: center;
   gap: 40px 50px;
   color: #b1b2bb;
-  justify-content: start;
-  margin: auto 0;
+
   font: 500 20px Inter, sans-serif;
 }
 
 .navLink {
-  align-self: stretch;
-  margin: auto 0;
   cursor: pointer;
   text-decoration: none;
   color: inherit;
   font-size: small;
+  transition: color 0.5s ease, transform 1s ease;
 }
 .navLink:hover{
   color: rgb(96, 179, 248);
@@ -89,17 +73,15 @@
 }
 
 .socialLinksWrapper {
-  align-self: stretch;
   display: flex;
-  align-items: start;
   gap: 30px;
-  justify-content: start;
-  margin: auto 0;
+
 }
 
 .socialIcon {
   aspect-ratio: 0.99;
   object-fit: contain;
+  filter: brightness(120%);
   object-position: center;
   width: 25px;
   cursor: pointer;
