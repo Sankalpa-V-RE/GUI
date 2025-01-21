@@ -1,0 +1,97 @@
+
+.about_us {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .background_image {
+    position: relative;
+    background-image: url("page.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    z-index: -1;
+    filter: blur(1px);
+  }
+  
+ 
+  .label {
+    position: absolute;
+    top: 60%;
+    left: 9%;
+    background: #ffffff;
+    color: #41bb29;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* About Us Card */
+  .about_us_card {
+    position: absolute;
+    top:25%;
+    left: 60%;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    z-index: 2;
+  }
+  
+  .card_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card_header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #000;
+    flex-grow: 1;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .about_us_card p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #ffa726;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fb8c00;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  

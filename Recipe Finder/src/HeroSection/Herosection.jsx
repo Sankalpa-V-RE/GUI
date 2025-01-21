@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section className={styles.heroContainer}>
       <div className={styles.heroWrapper}>
-        <img src='background.png' className={styles.heroBackground}/>
+        <img src='back.jpg' className={styles.heroBackground}/>
         <div className={styles.contentWrapper}>
           <div className={styles.contentBox}>
             <div className={styles.textContainer}>

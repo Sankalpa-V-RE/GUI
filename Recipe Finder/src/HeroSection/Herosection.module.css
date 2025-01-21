@@ -4,14 +4,15 @@
     display: flex;
     flex-direction: column;
     font-family: Inter, sans-serif;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   
   .heroWrapper {
     display: flex;
     flex-direction: column;
     position: relative;
-    min-height: 951px;
+    min-height: 700px;
+    max-height: 800px;
     width: 100%;
   }
   
@@ -40,11 +41,13 @@
   .contentBox {
     border-radius: 21px;
     display: flex;
-    margin-bottom: -49px;
+    padding: 10px;    
     width: 610px;
     max-width: 100%;
     flex-direction: column;
     justify-content: start;
+    background-color: rgba(70, 32, 2, 0.615);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   
   .textContainer {
@@ -52,6 +55,7 @@
     width: 100%;
     flex-direction: column;
     justify-content: start;
+    
   }
   
   .title {
