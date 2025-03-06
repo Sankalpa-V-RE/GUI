@@ -12,11 +12,7 @@ function AboutUs() {
         <div className={Styles.about_us_card}>
           <div className={Styles.card_header}>
             <h2>About Us</h2>
-            <img
-              src="https://img.icons8.com/color/48/000000/bread.png"
-              alt="bread-icon"
-              className="icon"
-            />
+            
           </div>
           <p>
             Our recipes are the heart and soul of our culinary community, and

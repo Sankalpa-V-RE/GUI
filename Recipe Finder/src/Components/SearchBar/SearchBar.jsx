@@ -1,26 +1,26 @@
 import React, { useState } from "react";
+import Styles from "./SearchBar.module.css"
 
-function SearchBar(){
+function SearchBar({ onSearch }) {
+    const [MealName, setMealName] = useState("");
 
-    const [MealName, setMealName] = useState('');
-    const [data, setData] = useState([]);
+    const handleSearchClick = () => {
+        if (MealName.trim()) {
+            onSearch(MealName);
+        }
+    };
 
-    const fetchInfo=()=>{
-        fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${MealName}`)
-            .then((res)=>res.json())
-            .then((data)=>setData(data))
-    }
-
-    console.log(data)
-    
-    return(
-        <>
-        <input type="text" placeholder="Search..." value={MealName} onChange={(e) => setMealName(e.target.value)}></input>
-        <button onClick={fetchInfo}>Search</button>
-        </>
-        
-        
-        
-    )
+    return (
+        <div className={Styles.container}>
+            <input className={Styles.search}
+                type="text"
+                placeholder="Search..."
+                value={MealName}
+                onChange={(e) => setMealName(e.target.value)}
+            />
+            <button className={Styles.btn} onClick={handleSearchClick}>Search</button>
+        </div>
+    );
 }
+
 export default SearchBar;

@@ -1,0 +1,13 @@
+.btn{
+    width: 100px;    
+}
+
+.container{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+}
+.search{
+    width: 1000px;
+    height: 40px;
+}

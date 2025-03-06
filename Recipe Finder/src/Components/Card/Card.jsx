@@ -1,6 +1,7 @@
 import styles from './Card.module.css';
 import { Link } from 'react-router-dom';
 
+
 function Card({ img, title, idMeal }) {
     return (
         <Link to={`/Display?id=${idMeal}`}>

@@ -45,6 +45,8 @@
   color: #ffffff;
   font: 400 26px "Leckerli One", serif;
   transition: transform 1s ease, color 1s ease;
+  align-items: center;
+  
 }
 .brandName:hover {
   transform: scale(1.5);
@@ -80,31 +82,63 @@
 }
 
 .btn {
-  background-color:#f79f1adb; /* Bright blue */
-  color: black; /* White text */
+  background-color:#f79f1adb; 
+  color: black; 
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   border: none;
-  border-radius: 5px; /* Rounded corners */
-  padding: 10px 20px; /* Size of the button */
-  font-size: 16px; /* Text size */
+  border-radius: 5px;
+  padding: 10px 20px; 
+  font-size: 16px; 
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  transition: all 0.3s ease; /* Smooth transitions */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease; 
 }
 
 .btn:hover {
-  background-color: #fab115; /* Darker blue on hover */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  background-color: #fab115; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
   color: white;
-  transform: translateY(-2px); /* Slight lift on hover */
+  transform: translateY(-2px); 
 
 }
 
 .btn:active {
-  transform: translateY(0); /* Reset lift on click */
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Softer shadow on click */
+  transform: translateY(0); 
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   color: black;
   border-radius: 5px;
+}
+
+.username {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.image{
+  height: 35px;
+}
+.profileSection {
+  display: flex;
+  align-items:center;
+  gap: 10px;
+  max-height: 30px;
+}
+
+.logoutButton {
+  background: none;
+  border: none;
+  color: #d2b14c;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-size: 12px;
+  margin: 0px 0px 0px 60px;
+}
+
+.logoutButton:hover {
+  color: #a27f14;
+  text-decoration: none;
 }

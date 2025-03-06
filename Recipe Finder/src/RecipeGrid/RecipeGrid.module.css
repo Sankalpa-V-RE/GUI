@@ -1,0 +1,9 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px; 
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}

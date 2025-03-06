@@ -15,7 +15,7 @@ const AboutUs = () => {
           <div className={styles.container}>
             <h1 className={styles.heading}>About Us</h1>
             <p className={styles.paragraph}>
-              Welcome to <strong>[Your Website Name]</strong>, your ultimate companion for discovering delicious recipes tailored to your tastes and needs. Whether you’re a seasoned chef, a busy parent, or a culinary novice, we’re here to make cooking simple, fun, and accessible for everyone.
+              Welcome to <strong>Feast & Find</strong>, your ultimate companion for discovering delicious recipes tailored to your tastes and needs. Whether you’re a seasoned chef, a busy parent, or a culinary novice, we’re here to make cooking simple, fun, and accessible for everyone.
             </p>
 
             <section className={styles.section}>
@@ -28,7 +28,7 @@ const AboutUs = () => {
             <section className={styles.section}>
               <h2 className={styles.subheading}>Our Story</h2>
               <p className={styles.paragraph}>
-                <strong>[Your Website Name]</strong> was born out of a love for food and a passion for making meal preparation easier. As food enthusiasts, we often faced the challenge of finding recipes that matched our busy schedules and available pantry items. This sparked the idea for a platform that simplifies the process, empowering home cooks to create amazing meals without the hassle.
+                <strong>Feast & Find</strong> was born out of a love for food and a passion for making meal preparation easier. As food enthusiasts, we often faced the challenge of finding recipes that matched our busy schedules and available pantry items. This sparked the idea for a platform that simplifies the process, empowering home cooks to create amazing meals without the hassle.
               </p>
             </section>
 
@@ -45,7 +45,7 @@ const AboutUs = () => {
             <section className={styles.section}>
               <h2 className={styles.subheading}>Our Values</h2>
               <p className={styles.paragraph}>
-                At <strong>[Your Website Name]</strong>, we’re guided by these principles:
+                At <strong>Feast & Find</strong>, we’re guided by these principles:
               </p>
               <ul className={styles.list}>
                 <li>Inclusivity: We celebrate all cuisines and cater to diverse dietary needs.</li>

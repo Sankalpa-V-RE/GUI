@@ -3,6 +3,7 @@ import Card from "../Components/Card/Card";
 import Styles from "./Grid.module.css";
 import { Link, useLocation } from 'react-router-dom';
 import SearchBar from "../Components/SearchBar/SearchBar";
+import Parent from "../SearchGridParent/parent";
 
 function Grid({ index }) {
     const [data, setData] = useState([]);
@@ -17,9 +18,9 @@ function Grid({ index }) {
                     fetch("https://www.themealdb.com/api/json/v1/1/random.php")
                         .then((res) => res.json())
                         .then((data) => ({
-                            image: data.meals[0].strMealThumb, // Get the meal image
-                            title: data.meals[0].strMeal,     // Get the meal title
-                            id: data.meals[0].idMeal,         // Get the meal ID
+                            image: data.meals[0].strMealThumb, 
+                            title: data.meals[0].strMeal,     
+                            id: data.meals[0].idMeal,         
                         }))
                 );
 
@@ -46,7 +47,7 @@ function Grid({ index }) {
                 <Link to="/Recipe"><button className={Styles.btn}>See All</button></Link>
             </div>)}
             {isSpecificPage &&(
-                <SearchBar/>
+                <Parent/>
             )}
             <div className={Styles.grid}>
                 {loading ? (

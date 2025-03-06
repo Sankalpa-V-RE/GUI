@@ -16,6 +16,7 @@ import Recipe from "./Pages/Recipes/Recipe";
 import Display from "./Pages/Display/Display";
 import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/SignUp/SignUp";
+import RecipeGrid from "./RecipeGrid/RecipeGrid";
 
 
 function AnimatedRoutes() {
@@ -30,6 +31,7 @@ function AnimatedRoutes() {
               <Route path="/Display" element={<Display/>}/>
               <Route path="/Login" element={<Login/>}/>
               <Route path="/SignUp" element={<SignUp/>}/>
+              <Route path="/recipes" element={<RecipeGrid/>}/>
             </Routes>
             <Footer></Footer>
           </div>

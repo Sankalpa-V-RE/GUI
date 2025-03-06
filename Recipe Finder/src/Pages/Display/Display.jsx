@@ -18,7 +18,7 @@ function Display() {
                 const result = await response.json();
 
                 if (result.meals) {
-                    setData(result.meals[0]); // Fetch details of the specific meal.
+                    setData(result.meals[0]); // specific meal.
                 } else {
                     setError("No recipe found!");
                 }
@@ -54,9 +54,9 @@ function Display() {
             <ul className={styles.ingredients}>
             <p className={styles.text}>Ingredients</p><br></br>
                 {Object.keys(data)
-                    .filter((key) => key.startsWith("strIngredient") && data[key]) // Filter ingredients
+                    .filter((key) => key.startsWith("strIngredient") && data[key]) // ingredients
                     .map((ingredientKey, index) => {
-                        const measureKey = `strMeasure${ingredientKey.slice(13)}`; // Get corresponding measurement key
+                        const measureKey = `strMeasure${ingredientKey.slice(13)}`; // measurement key
                         return (
                             <li key={index}>
                                 {data[ingredientKey]} - {data[measureKey]} 

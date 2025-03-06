@@ -1,7 +1,45 @@
 import styles from './NavigationBar.module.css';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 function NavigationBar() {
+  const navigate = useNavigate();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [username, setUsername] = useState('');
+
+  useEffect(() => {
+    const checkAuthStatus = () => {
+      const userData = localStorage.getItem('user');
+      if (userData) {
+        const { username } = JSON.parse(userData);
+        setIsLoggedIn(true);
+        setUsername(username);
+      } else {
+        setIsLoggedIn(false);
+        setUsername('');
+      }
+    };
+
+    
+    checkAuthStatus();
+
+    
+    window.addEventListener('storage', checkAuthStatus);
+
+    
+    return () => {
+      window.removeEventListener('storage', checkAuthStatus);
+    };
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('user');
+    setIsLoggedIn(false);
+    setUsername('');
+    navigate('/');
+    window.dispatchEvent(new Event('storage'));
+  };
   return (
     <nav className={styles.navigationContainer}>
       <div className={styles.navigationWrapper}>
@@ -16,8 +54,20 @@ function NavigationBar() {
           </div>
         </div>
         <div className={styles.socialLinksWrapper}>
-        <Link  to="/SignUp" className={styles.btn}>Sign Up</Link>
-        <Link to="/Login" className={styles.btn}>Login</Link>
+          {isLoggedIn ? (
+              <div className={styles.profileSection}>
+                <img className={styles.image} src='user.png'></img>
+                <span className={styles.username}>{username}</span>
+                <button onClick={handleLogout} className={styles.logoutButton}>
+                Logout
+              </button>
+              </div>
+            ) : (
+              <>
+                <Link to="/SignUp" className={styles.btn}>Sign Up</Link>
+                <Link to="/Login" className={styles.btn}>Login</Link>
+              </>
+            )}
         </div>
       </div>
     </nav>

@@ -2,8 +2,18 @@ import AboutUs from "../../Components/About Us/about";
 import Grid from "../../Grid/Grid";
 import HeroSection from "../../HeroSection/Herosection";
 import { motion } from "framer-motion";
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Home(){
+    const navigate = useNavigate();
+
+  useEffect(() => {
+    const user = localStorage.getItem('user');
+    if (!user) {
+      navigate('/login');
+    }
+  }, [navigate]);
     return(
         <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
