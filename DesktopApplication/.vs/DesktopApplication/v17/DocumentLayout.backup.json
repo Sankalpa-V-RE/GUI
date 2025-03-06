@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\addedituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\addedituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\addedituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\addedituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\vihanga\\documents\\github\\gui\\desktopapplication\\desktopapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{269E9ADC-6227-4B14-9319-60B15D7D14B3}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +46,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DesktopApplication\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\AssemblyInfo.cs*",
+              "RelativeToolTip": "DesktopApplication\\AssemblyInfo.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T00:25:54.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DesktopApplication\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\App.xaml.cs*",
+              "RelativeToolTip": "DesktopApplication\\App.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T00:25:28.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\App.xaml",
+              "RelativeDocumentMoniker": "DesktopApplication\\App.xaml",
+              "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\App.xaml",
+              "RelativeToolTip": "DesktopApplication\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T00:25:26.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\ApplicationDbContext.cs*",
-              "RelativeToolTip": "DesktopApplication\\ApplicationDbContext.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABuAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DesktopApplication\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T22:00:07.26Z",
               "EditorCaption": ""
@@ -55,27 +105,28 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DesktopApplication\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\MainWindow.xaml",
-              "RelativeToolTip": "DesktopApplication\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\MainWindow.xaml*",
+              "RelativeToolTip": "DesktopApplication\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-03T21:56:50.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AddEditUserWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\AddEditUserWindow.xaml.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\AddEditUserWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\AddEditUserWindow.xaml.cs",
               "RelativeToolTip": "DesktopApplication\\AddEditUserWindow.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T22:08:41.546Z"
+              "WhenOpened": "2025-03-03T22:08:41.546Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\Models\\User.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\Models\\User.cs",
@@ -83,11 +134,12 @@
               "RelativeToolTip": "DesktopApplication\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T21:58:51.214Z"
+              "WhenOpened": "2025-03-03T21:58:51.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\MainWindow.xaml.cs",
@@ -99,14 +151,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AddEditUserWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\AddEditUserWindow.xaml",
               "RelativeDocumentMoniker": "DesktopApplication\\AddEditUserWindow.xaml",
               "ToolTip": "C:\\Users\\Vihanga\\Documents\\GitHub\\GUI\\DesktopApplication\\DesktopApplication\\AddEditUserWindow.xaml",
               "RelativeToolTip": "DesktopApplication\\AddEditUserWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-03T22:08:11.221Z"
+              "WhenOpened": "2025-03-03T22:08:11.221Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -19,7 +19,7 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <!-- Same grid structure -->
+
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -30,13 +30,12 @@
             <ColumnDefinition Width="auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <!-- Updated Title -->
+
         <TextBlock Grid.Row="0"  Grid.Column="1"
                    Text="User Management System for Feast AND Find" 
                    FontSize="20" FontWeight="Bold" 
                    HorizontalAlignment="Center" Margin="10" />
 
-        <!-- Updated DataGrid -->
         <DataGrid x:Name="UserGrid" Grid.Row="1" Grid.Column="1" 
                   AutoGenerateColumns="False" Margin="10"
                   VerticalAlignment="Stretch" 
@@ -49,7 +48,6 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- Keep same button panel -->
         <StackPanel Grid.Row="1" Grid.Column="0"
             VerticalAlignment="Top" 
             HorizontalAlignment="Center" Margin="10">
@@ -58,7 +56,7 @@
             <Button Content="Delete User" Width="150" Click="DeleteButton_Click" />
             <Button Content="Refresh Data" Click="RefreshButton_Click" />
         </StackPanel>
-        <!-- Updated Footer -->
+        
         <TextBlock Grid.Row="2" Grid.ColumnSpan="2" Text="Feast AND Find" 
                    FontSize="16" FontStyle="Oblique" 
                    HorizontalAlignment="Center" Margin="10" Background="Bisque"/>
