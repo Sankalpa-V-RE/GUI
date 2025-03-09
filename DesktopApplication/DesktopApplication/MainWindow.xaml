@@ -5,60 +5,137 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Window.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Margin" Value="5" />
-            <Setter Property="Padding" Value="10" />
-            <Setter Property="FontSize" Value="14" />
-            <Setter Property="Background" Value="#7D99AA" />
-            <Setter Property="Foreground" Value="White" />
-            <Setter Property="BorderBrush" Value="#66F4FF" />
-            <Setter Property="BorderThickness" Value="1" />
-            <Setter Property="Cursor" Value="Hand" />
-        </Style>
-    </Window.Resources>
-    <Grid>
+        Title="User Management System" 
+        Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI">
 
+    <Window.Resources>
+        <!-- Main Color: #FAB115 -->
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="8" />
+            <Setter Property="Padding" Value="12 6" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FAB115" Offset="0"/>
+                        <GradientStop Color="#f39c12" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                                CornerRadius="4"
+                                Background="{TemplateBinding Background}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{TemplateBinding BorderBrush}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Color="#FFC445" Offset="0"/>
+                                            <GradientStop Color="#F0A920" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#E89E10"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="DataGrid">
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="AutoGenerateColumns" Value="False"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="#FFF9F2"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="#FFF5E9"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="VerticalGridLinesBrush" Value="#FFEEDD"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="#FFEEDD"/>
+        </Style>
+
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#f39c12"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="12 8"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <DropShadowEffect x:Key="ShadowEffect" BlurRadius="10" Opacity="0.1" ShadowDepth="2"/>
+    </Window.Resources>
+
+    <Grid Background="#FFFDFA">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+        <!-- Header Section -->
+        <Border Grid.Row="0" Background="#e67e22" Padding="20 15">
+            <TextBlock Text="👥 User Management System" 
+                       FontSize="24" FontWeight="Bold" 
+                       Foreground="White" HorizontalAlignment="Center"/>
+        </Border>
 
-        <TextBlock Grid.Row="0"  Grid.Column="1"
-                   Text="User Management System for Feast AND Find" 
-                   FontSize="20" FontWeight="Bold" 
-                   HorizontalAlignment="Center" Margin="10" />
+        <!-- Main Content -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-        <DataGrid x:Name="UserGrid" Grid.Row="1" Grid.Column="1" 
-                  AutoGenerateColumns="False" Margin="10"
-                  VerticalAlignment="Stretch" 
-                  HorizontalAlignment="Stretch">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding userid}" Width="auto"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding username}" />
-                <DataGridTextColumn Header="Email" Binding="{Binding email}"/>
-                <DataGridTextColumn Header="Password" Binding="{Binding password}"/>
-            </DataGrid.Columns>
-        </DataGrid>
+            <!-- Action Panel -->
+            <Border Grid.Column="0" Background="White" Padding="10"
+                    Margin="10 0 0 0" CornerRadius="8"
+                    Effect="{StaticResource ShadowEffect}">
+                <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
+                    <Button Content="➕ Add User" Width="160" Click="AddButton_Click"/>
+                    <Button Content="✏️ Edit User" Width="160" Click="ModifyButton_Click"/>
+                    <Button Content="🗑️ Delete User" Width="160" Click="DeleteButton_Click"/>
+                    <Button Content="🔄 Refresh Data" Width="160" Click="RefreshButton_Click"
+                            Margin="0 20 0 0" Background="#EEE" Foreground="#666"
+                            BorderBrush="#DDD" BorderThickness="1"/>
+                </StackPanel>
+            </Border>
 
-        <StackPanel Grid.Row="1" Grid.Column="0"
-            VerticalAlignment="Top" 
-            HorizontalAlignment="Center" Margin="10">
-            <Button Content="Add User" Width="150" Click="AddButton_Click" />
-            <Button Content="Modify User" Width="150" Click="ModifyButton_Click" />
-            <Button Content="Delete User" Width="150" Click="DeleteButton_Click" />
-            <Button Content="Refresh Data" Click="RefreshButton_Click" />
-        </StackPanel>
-        
-        <TextBlock Grid.Row="2" Grid.ColumnSpan="2" Text="Feast AND Find" 
-                   FontSize="16" FontStyle="Oblique" 
-                   HorizontalAlignment="Center" Margin="10" Background="Bisque"/>
+            <!-- User List -->
+            <DataGrid x:Name="UserGrid" Grid.Column="1"
+                      VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                      AutoGenerateColumns="False" CanUserAddRows="False"
+                      IsReadOnly="True" SelectionUnit="FullRow">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="User ID" Binding="{Binding userid}" Width="Auto"/>
+                    <DataGridTextColumn Header="Username" Binding="{Binding username}"/>
+                    <DataGridTextColumn Header="Email" Binding="{Binding email}"/>
+                    <DataGridTextColumn Header="Password" Binding="{Binding password}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <!-- Footer -->
+        <Border Grid.Row="2" Background="#FFF5E9" Padding="10">
+            <TextBlock Text="🍔 Find and Feast 🍦"
+                       FontSize="14" FontStyle="Italic"
+                       HorizontalAlignment="Center" Foreground="#666"/>
+        </Border>
     </Grid>
 </Window>
